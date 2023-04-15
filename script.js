@@ -1,6 +1,6 @@
 function createTemperatureConverter() {
-  const toCelcius = (temperature) => (temperature - 32) / 1.8;
-  const toFarenheight = (temperature) => temperature * 1.8 + 32;
+  const toCelcius = (fahrenheit) => (fahrenheit - 32) / 1.8;
+  const toFarenheight = (celcius) => celcius * 1.8 + 32;
 
   return {
     toCelcius,
