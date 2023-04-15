@@ -1,8 +1,8 @@
 function createCounter() {
   let count = 0;
 
-  const increment = () => count++;
-  const decrement = () => count--;
+  const increment = () => ++count;
+  const decrement = () => --count;
 
   return increment, decrement;
 }
